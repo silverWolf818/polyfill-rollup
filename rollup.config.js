@@ -13,6 +13,6 @@ export default {
         babel({babelHelpers: 'bundled'}),
         nodeResolve(),
         commonJS(),
-        // terser(),
+        terser(),
     ],
 };
